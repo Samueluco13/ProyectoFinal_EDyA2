@@ -1,0 +1,23 @@
+.product-details{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: #4f4f4f;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.product-details-info{
+    width: 100%;
+    text-align: center;
+}
+
+.product-details-info h1{
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #1d1d1d;
+}
+
+.product-details-info p{
+    font-size: 18px;
+}

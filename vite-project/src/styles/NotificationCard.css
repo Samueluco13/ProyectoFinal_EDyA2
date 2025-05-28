@@ -1,0 +1,36 @@
+.notification-card {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ffffffbd;
+}
+
+.notification-card p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.notification-card button{
+    height: 28px;
+    width: 28px;
+    border-radius: 5px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-noti{
+    flex: 0 1 340px;
+}
+
+.noti-actions{
+    flex: 0 0 20px;
+}
+
+.notification-card button:hover{
+    color: rgb(255, 66, 66);
+    border-color: rgb(255, 66, 66);
+}

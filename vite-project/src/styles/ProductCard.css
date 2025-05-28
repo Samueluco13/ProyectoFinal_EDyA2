@@ -1,0 +1,30 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-color: white;
+    background-color: #4F4F4F;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(19, 19, 19, 0.695);
+    transition: transform 0.2s;
+}
+
+.product-card:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.product-card-button{
+    margin-bottom: 16px;
+}
+
+.product-card-button.dispatch:hover{
+    border-color: #29ff46;
+    color: #51fb42;
+}
+
+.product-card-button.danger:hover{
+    border-color: #ff2929;
+    color: #fb4242;
+}
